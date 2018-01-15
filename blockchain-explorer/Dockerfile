@@ -4,7 +4,7 @@
 # HTTP_PORT=<web server port. Default is 9090 if not set>
 # HYP_REST_ENDPOINT=<REST endpoint. Default is http://127.0.0.1:7050 if not set>
 
-FROM node:6-wheezy
+FROM node:9
 MAINTAINER yanjunli <allovertheword@163.com>
 
 # install maintain tools
